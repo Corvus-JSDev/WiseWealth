@@ -4,14 +4,19 @@ export default function NavBar() {
 	return (
 		<div className={style.NavBar}>
 			<div>
-				<img src="/imgs/WiseWealthLogo2.png" />
-				<h1>WiseWealth</h1>
-			</div>
-
-			<div>
-				<a href="/about">About</a>
+				<a
+					target="_blank"
+					href="https://github.com/Corvus-JSDev/WiseWealth/tree/main?tab=readme-ov-file#about"
+				>
+					About
+				</a>
 				<p style={{ cursor: "default" }}>•</p>
-				<a href="/howto">How To Use</a>
+				<a
+					target="_blank"
+					href="https://github.com/Corvus-JSDev/WiseWealth/tree/main?tab=readme-ov-file#how-to-use"
+				>
+					How To Use
+				</a>
 			</div>
 		</div>
 	);
