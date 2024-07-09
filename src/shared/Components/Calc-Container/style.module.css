@@ -1,0 +1,107 @@
+.calcContainer {
+	/* border: 1px solid red; */
+
+	background-color: var(--background);
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+	height: fit-content;
+	max-width: 900px;
+
+	transform-origin: top;
+	position: relative;
+	top: 30px;
+
+	transition: scale 0.2s ease;
+}
+.calcContainer input {
+	height: 100%;
+	background-color: var(--input-bg);
+	border: 0;
+	outline: 0;
+	font-size: 1.2rem;
+	width: 100%;
+	margin-left: 5px;
+}
+
+/* Remove the arrows from the input felids */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.mortgageContainer,
+.autoLoanContainer,
+.takeHomePayContainer,
+.dtiContainer {
+	padding: 30px 40px;
+}
+.dtiContainer {
+	padding-bottom: 0px !important;
+}
+
+.DTImonologue {
+	background-color: transparent;
+
+	/* max-width: 100px; */
+	/* margin-top: 50px; */
+	padding: 0px 50px;
+}
+.DTImonologue p {
+	text-indent: 30px;
+	line-height: 2.2;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.DTImonologue h1 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+.dtiContainer hr {
+	margin-top: 50px;
+	margin-bottom: 35px;
+
+	border-color: #454545;
+}
+
+/* 
+
+*/
+
+@media only screen and (min-width: 1200px) {
+	/* CSS styles for extra large devices */
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/* CSS styles for large devices */
+
+	.calcContainer {
+		scale: 0.9;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* CSS styles for medium devices */
+
+	.calcContainer {
+		scale: 0.8;
+		/* top: -20px; */
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	/* CSS styles for small devices */
+
+	.calcContainer {
+		scale: 0.65;
+		/* top: -140px; */
+	}
+}
+@media only screen and (max-width: 575px) {
+	/* CSS styles for extra small devices */
+
+	.calcContainer {
+		scale: 0.5;
+		/* top: -220px; */
+	}
+}

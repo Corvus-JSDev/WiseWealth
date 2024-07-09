@@ -1,0 +1,8 @@
+.OverallContainer {
+	width: 100vw;
+	height: 99lvh;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}

@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--background: #1f2122;
+	--input-bg: #454545;
+	--green-color: #6df3c1;
+}
+* {
+	color: #d0d0d4;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body {
+	position: relative;
+	min-width: 320px;
+	min-height: 100lvh;
+	overflow-x: hidden;
+	background-color: #232628;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+h2 {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+h3 {
+	font-size: 1.17rem;
+	font-weight: 500;
+}
+h4 {
+	font-size: 1rem;
+	font-weight: 500;
+}
+strong,
+b {
+	font-weight: bold;
+}
+em,
+i {
+	font-style: italic;
+}
+a {
+	text-decoration: none;
+	color: #d0d0d4;
+}
+nav {
+	position: relative;
+	z-index: 999999999999;
+}
+
+.input-error {
+	outline: 1px solid red;
+}
+
+/** Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body {
+		/* background-color: blue; */
+		/* padding: 100px 30px; */
+	}
+}
+/* Small devices */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+	body {
+		/* background-color: green; */
+		/* padding: 100px 50px; */
+	}
+}
+
+/* Medium devices */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+	body {
+		/* background-color: red; */
+		/* padding: 100px 80px; */
+	}
+}
+
+/* Large devices */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+	body {
+		/* background-color: blue; */
+		/* padding: 100px 100px; */
+	}
+}
+
+/* Extra large devices */
+@media only screen and (min-width: 1201px) {
+	body {
+		/* background-color: var(--background-purple); */
+		/* padding: 100px 130px; */
+	}
+}

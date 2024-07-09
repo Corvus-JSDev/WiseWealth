@@ -1,0 +1,48 @@
+.NavBar {
+	/* width: 100vw; */
+	background-color: #1f2122;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0px;
+}
+.NavBar div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.NavBar img {
+	width: 40px;
+}
+.NavBar a:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	/* CSS styles for small devices */
+
+	.NavBar h1 {
+		font-size: 1.5rem;
+	}
+	.NavBar img {
+		width: 30px;
+	}
+	.NavBar div {
+		gap: 10px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	/* CSS styles for extra small devices */
+
+	.NavBar h1 {
+		font-size: 1.2rem;
+	}
+	.NavBar img {
+		width: 30px;
+	}
+	.NavBar div {
+		gap: 10px;
+	}
+}
