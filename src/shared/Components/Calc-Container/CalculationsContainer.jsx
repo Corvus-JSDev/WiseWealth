@@ -2,6 +2,7 @@ import style from "./style.module.css";
 import React, { useState } from "react";
 import styled from "styled-components";
 import WhyIsDTIImportant from "./WhyIsDTIImportant.jsx";
+import TakeHomePayInfo from "./HowToCalcIncome.jsx";
 
 import Mortgage from "../Mortgage/Mortgage.jsx";
 import AutoLoan from "../AutoLoan/AutoLoan.jsx";
@@ -77,6 +78,8 @@ function TabGroup() {
 				{active === "Take Home Pay" && (
 					<div className={style.takeHomePayContainer}>
 						<TakeHomePay />
+						<hr />
+						<TakeHomePayInfo />
 					</div>
 				)}
 
