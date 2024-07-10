@@ -3,7 +3,55 @@ import style from "./style.module.css";
 export default function TakeHomePayInfo() {
 	return (
 		<div className={style.DTImonologue}>
-			<h1>How tax brackets work</h1>
+
+			<h1>
+				Did you know, paying federal income tax is illegal and
+				unconstitutional?
+			</h1>
+
+			<p>
+				Yes, you read that correctly. There's a man, Joe Banister, who used
+				to work for the IRS' criminal investigation division in the early
+				'90s. One day on the radio, he heard some talk show hosts talking
+				about how federal income taxes are illegal. So, working for the IRS,
+				he sets to figure out if this is true. After years of research he
+				finds that in the IRS handbook itself and in the constitution,
+				federal income tax is <b>only</b> to be paid by{" "}
+				<i>
+					US citizens{" "}
+					<span style={{ textDecoration: "underline" }}>
+						working abroad.
+					</span>
+				</i>{" "}
+				NOT citizens working inside the US. So natural he brings all his
+				findings to his boss at the time, who immediately asks him to
+				resign.
+			</p>
+
+			<p>
+				Joe Banister has since paid no federal income tax, and works as an
+				accountant.
+			</p>
+
+			<p>
+				<b>Please note,</b> this only applies to <i>federal</i> income tax,
+				NOT state tax. With that being said, here are the 9 states that do
+				not have an income tax:
+				<ul>
+					<li>Alaska</li>
+					<li>Nevada</li>
+					<li>Wyoming</li>
+					<li>South Dakota</li>
+					<li>New Hampshire</li>
+					<li>Tennessee</li>
+					<li>Washington</li>
+					<li>Texas</li>
+					<li>Florida</li>
+				</ul>
+			</p>
+			<p>Do with this information as you will.</p>
+
+			<h1 style={{ marginTop: "30px" }}>How tax brackets work</h1>
 			<p>
 				The US tax bracket system is structured to ensure that taxes are
 				levied progressively based on income.
