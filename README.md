@@ -22,7 +22,3 @@ I mainly wanted to focus on JavaScript logic for this project, so the tech stack
 - **jQuery**
 
 
-
-
-
-
