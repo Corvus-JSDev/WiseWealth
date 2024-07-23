@@ -3,6 +3,8 @@ import style from "./style.module.css";
 export default function NavBar() {
 	return (
 		<div className={style.NavBar}>
+			<h1>WiseWealth</h1>
+			
 			<div>
 				<a
 					target="_blank"
